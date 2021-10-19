@@ -1,0 +1,7 @@
+apiVersion: s3.services.k8s.aws/v1alpha1
+kind: Bucket
+metadata:
+  name: ato-demo-bucket
+  namespace: ato-demo
+spec:
+  name: ato-demo-bucket
